@@ -1,0 +1,21 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addCommand prevents duplicate commands: 
+      Error: Command with name 'test' already exists. Ignoring duplicate.
+     1`] = `[Function]`;
+
+exports[`commands are case-insensitive: 
+      Error: Command with name 'test' already exists. Ignoring duplicate.
+     1`] = `[Function]`;
+
+exports[`handles empty input: Please enter a valid command. Type "--help" for a list of available commands. 1`] = `[Function: AsyncFunction]`;
+
+exports[`handles unrecognized commands: Unrecognized command 'invalidCommand'. Type "--help" for a list of available commands. 1`] = `[Function: AsyncFunction]`;
+
+exports[`handles errors during command execution: Error executing command 'errorCommand': Test error 1`] = `[Function: AsyncFunction]`;
+
+exports[`showHelp displays available commands: 
+  Available Commands:
+
+  testCommand: Test command
+   1`] = `[Function]`;
